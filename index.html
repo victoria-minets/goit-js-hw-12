@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Gallery</title>
   <script type="module" crossorigin src="/goit-js-hw-12/index.js"></script>
-  <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-D3K94jtT.js">
-  <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/vendor-BocuK-4Y.css">
-  <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-Cza6nMDP.css">
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-CPRf1AQD.js">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/vendor-D-NVw-9R.css">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-CB1DUMaT.css">
 </head>
 
 <body>
@@ -17,26 +17,29 @@
 
   <main>
     <div class="container">
-
       <form class="form">
         <label>
           <input type="text" name="search-text" placeholder="Search images...">
         </label>
         <button type="submit" class="btn">Search</button>
       </form>
-
-
-      <!-- Лоадер -->
-      <div id="loader" class="loader hidden">
-        <span class="loader-circle"></span>
-      </div>
     </div>
+
     <!-- Картотека -->
     <ul class="gallery"></ul>
 
+    <!-- Load more -->
+    <div class="load-more-wrapper hidden">
+      <button class="btn load-more-btn">Load more</button>
+    </div>
+
+    <!-- Лоадер -->
+    <div id="loader" class="loader hidden">
+      <span class="loader-circle"></span>
+    </div>
+    </div>
 
   </main>
-
 
 </body>
 
